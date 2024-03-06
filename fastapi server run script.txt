@@ -1,0 +1,48 @@
+
+
+
+C:\Users\Admin\anaconda3\envs\tensor\Scripts\uvicorn.exe file1:app --reload
+
+C:\Users\Admin\anaconda3\envs\tensor\Scripts\uvicorn.exe file1:app --host 127.0.0.1 --port 8000
+
+
+step 1:
+cd C:\Users\Admin\Desktop\potato----potato-api:app path
+step 2:
+
+--uvicron script path+ file name
+/home/data/anaconda3/bin/uvicorn potato-api:app --reload
+
+
+
+origins=["https://localhost",
+         "https://localhost:3000"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+
+)
+
+C:\Users\Admin\Desktop\potato\frontend
+
+
+try {
+      let res = await axios.post(process.env.REACT_APP_API_URL, formData);
+      console.log("Response from server:", res.data);
+      // Handle the response data as needed
+    } catch (error) {
+      console.error("Error making POST request:", error);
+      // Handle errors
+    }
+
+let res = await axios({
+        method: "post",
+        url: process.env.REACT_APP_API_URL,
+        data: formData,
+      });
+      
+      
+      source ~/anaconda3/bin/activate
